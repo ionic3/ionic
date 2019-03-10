@@ -1,0 +1,166 @@
+page-verification-account {
+	.border{
+		border:1px solid #eee;
+	}
+	.text_description{
+		padding: 10px 20px;
+	    line-height: 22px;
+	    color: #4c4c4c;
+	    position: relative;
+	    z-index: 99999;
+	}
+	.mywallet{
+		margin-top: -20px;
+		width: 100%;
+		float: left;
+		position: relative;
+		z-index: 9999;
+	}
+	.qr-scanner-img{
+		margin-top: -30px !important;
+	    position: relative;
+	    z-index: 1;
+    	display: block;
+	    width: 80%;
+	    margin: 0 auto;
+	}
+	.pending{
+		text-transform: capitalize;
+		
+		font-weight: bold;
+		opacity: 0.6;
+	}
+	.border-tab{
+		border:1px solid #b7b7b7;
+		border-top: none;
+	}
+	.border-tab.active{
+		background: #4caf50;
+	}
+	.border-tab.active h3{
+		color: #fff;
+	}
+	.card-header-md{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.label-md{
+		margin: 0px;
+	}
+	.item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner, .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner{
+	    box-shadow: none;
+	  }
+	  .item-md.item-input.item-input-has-focus .item-inner, .item-md.item-input.input-has-focus .item-inner{
+	    box-shadow: none;
+	  }
+	.item-input .label-md, .item-select .label-md, .item-datetime .label-md {
+	    color: #282828;
+	}
+	.button-default  {
+	    padding: 19px !important;
+	    background: #FF5722 !important;
+	    margin-top: 22px;
+	}
+	.text-error{
+		color: red;
+		margin-top: 10px;
+	}
+	.card-header{
+		padding-left: 5px;
+	}
+	.card-content{
+		padding: 0px;
+	}
+	.none-active-email{
+		background: #eab2ae5c;
+	}
+	.img-profile{
+		width: 150px;
+		height: 150px;
+		margin: 0 auto;
+		border-radius: 50%;
+		margin-bottom: 10px;
+	}
+	
+
+	ion-item-group{
+		border-top: 1px solid #eee;
+		
+		padding: 5px 0;
+	}
+	.item-md{
+		color: #2b2b2b !important;
+		    margin-bottom: 20px;
+	}
+	.input-wrapper .label .icon{
+		padding-right: 15px;
+	}
+	.img-camera-take{
+		width: 90%;
+		margin: 10px auto;
+		border-radius: 10px;
+		border: 2px solid #41c493;
+	}
+	.button-default {
+	    padding: 19px !important;
+	    background: #FF5722 !important;
+	    margin-top: 22px;
+	    width: 80%;
+	    margin: 0 auto;
+	    border-radius: 20px;
+	}
+	.item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner, .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner{
+	    box-shadow: none;
+	  }
+	  .item-md.item-input.item-input-has-focus .item-inner, .item-md.item-input.input-has-focus .item-inner{
+	    box-shadow: none;
+	  }
+	ion-input,ion-datetime{
+	    border-bottom: 1px solid #eee;
+	    
+	    padding: 0px 10px;
+	    border-radius: 5px;
+	}
+	.item-ios{
+      margin-bottom: 15px;
+    }
+	.item-inner{
+		border: none !important;
+	}
+	ion-label{
+		font-size: 16px !important;
+	}
+	.text-input::-moz-placeholder {
+	  color: #222;
+	}
+
+	.text-input:-ms-input-placeholder {
+	  color: #222;
+	}
+
+	.text-input::-webkit-input-placeholder {
+	  text-indent: 0;
+	  color: #222;
+	}
+	.item-input-has-focus .label-md[stacked], .input-has-focus .label-md[stacked], .item-input-has-focus .label-md[floating], .input-has-focus .label-md[floating]{
+		color: #4CAF50
+	}
+	.button_camera{ 
+		width: auto;
+	    background: #FF5722 !important;
+	    margin-top: 15px;
+	    margin-bottom: 10px;
+	}
+
+	.border-verify{
+		background: #f5f5f5;
+	    border: 1px solid #e4e2e2;
+	    border-radius: 10px;
+	    margin-bottom: 10px;
+	    margin-top: 10px;
+	}
+	.border-verify h2{
+		color: #FF5722;
+	    font-size: 14px;
+	}
+}
